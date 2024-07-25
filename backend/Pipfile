@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.8.1"
+django = "==5.0.6"
+django-cors-headers = "==4.3.1"
+django-environ = "==0.11.2"
+djangorestframework = "==3.15.1"
+djangorestframework-simplejwt = "==5.3.1"
+pyjwt = "==2.8.0"
+pyotp = "==2.9.0"
+pytz = "==2024.1"
+sqlparse = "==0.5.0"
+tzdata = "==2024.1"
+pillow = "*"
+google-api-python-client = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.4"
